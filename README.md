@@ -1,4 +1,4 @@
-# CPUFreq - Swift 3.x bindings to CPUFreq in Linux sysfs
+# CPUFreq - Swift 3 and 4 bindings to CPUFreq in Linux sysfs
 
 The project provides the `CPUFreq` Swift package - a thin wrapper around the `CPUFreq` Linux interface in sysfs for getting and setting DVFS-related configurations.
 Its purpose is to abstract programs from file I/O and data parsing/conversion.
@@ -54,3 +54,11 @@ The files `scaling_governor`, `scaling_min_freq`, and `scaling_max_freq` are ope
 The file `scaling_setspeed` is opened as write-only.
 All other files are opened as read-only.
 Users are responsible for ensuring that their programs have correct read/write privileges.
+
+
+## Project Source
+
+Find this and related project sources at the [powercap organization on GitHub](https://github.com/powercap).  
+This project originates at: https://github.com/powercap/CPUFreq-Swift
+
+Bug reports and pull requests are welcome.
